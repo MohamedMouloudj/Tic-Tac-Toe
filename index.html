@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="size">
+      <div class="size">
+        <p>Enter rows number:</p>
+        <input placeholder="__" type="number" min="3" max="10" />
+      </div>
+      <div class="size size__button">
+        <button type="submit" onclick="start()">Play</button>
+        <button id="reset--size">Reset rows number</button>
+      </div>
+    </div>
+    <div class="score">
+      <p>X score: <span class="x--score"></span></p>
+      <p>O score: <span class="o--score"></span></p>
+    </div>
+    <div class="container">
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
